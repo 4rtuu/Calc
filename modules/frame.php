@@ -42,7 +42,8 @@ class Frame {
 	}
 
 	public function result() {
-
+		
+		// or instead of and
 		if (!empty($_POST['num1']) && !empty($_POST['num2']) && !empty($_POST['operator'])) {
 			$this->first = $_POST['num1'];
 			$this->last = $_POST['num2'];
