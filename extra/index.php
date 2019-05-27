@@ -10,4 +10,4 @@ $calc = new Frame();
 echo $calc->htmlFrame();
 
 $outcome = new Results();
-echo $outcome->calculate();
+echo $outcome->result();
