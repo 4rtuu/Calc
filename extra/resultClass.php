@@ -6,7 +6,7 @@ class Results {
 	protected $last;
 	protected $operator;
 	
-	public function calculate() {
+	public function result() {
 
 		if (empty($_POST['num1']) || empty($_POST['num2']) || empty($_POST['operator'])) {
 
