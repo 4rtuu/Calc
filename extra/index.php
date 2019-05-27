@@ -1,4 +1,3 @@
-<?php include "modules/frame.php"; ?>
 <?php include "iClass.php"; ?>
 <?php include "valClass.php"; ?>
 <?php include "nodeClass.php"; ?>
