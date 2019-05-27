@@ -19,9 +19,9 @@ class Results {
 			$this->operator = $_POST['operator'];
 
 			$o = new Val($this->operator);
-			$value = $o->calculate();
+			$class = $o->calculate();
 
-			$operation = new $value(new Val($this->first), new Val($this->last), new Val($this->operator));
+			$operation = new $class(new Val($this->first), new Val($this->last), new Val($this->operator));
 			$result = $operation->calculate();
 			return 'result is <b>' . $result . '</b>';
 
